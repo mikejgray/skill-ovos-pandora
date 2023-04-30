@@ -8,7 +8,7 @@ from pandorinha import Pandora
 
 
 class PandoraSkill(OVOSCommonPlaybackSkill):
-    def __init__(self):
+    def __init__(self, name="Pandora"):
         super(PandoraSkill, self).__init__()
         self.supported_media = [MediaType.GENERIC,
                                 MediaType.MUSIC]
