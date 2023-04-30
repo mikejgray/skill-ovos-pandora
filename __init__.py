@@ -9,7 +9,7 @@ from pandorinha import Pandora
 
 class PandoraSkill(OVOSCommonPlaybackSkill):
     def __init__(self):
-        super(PandoraSkill, self).__init__("Pandora")
+        super(PandoraSkill, self).__init__()
         self.supported_media = [MediaType.GENERIC,
                                 MediaType.MUSIC]
         self.skill_icon = join(dirname(__file__), "ui", "pandora.jpeg")
